@@ -1,12 +1,15 @@
 import React from "react";
+import NavBar from "./components/NavBar";
+import SearchInput from "./components/SearchInput";
 import "./styles/main.scss";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="container">
+      <NavBar />
+      <SearchInput />
     </div>
   );
-}
+};
 
 export default App;
